@@ -1,0 +1,4478 @@
+{
+  "title": "Orbital Habitat",
+  "version": 1,
+  "units": "metres",
+  "materials": {
+    "panel": {
+      "color": [
+        0.64,
+        0.67,
+        0.65
+      ],
+      "roughness": 0.64,
+      "metalness": 0.08
+    },
+    "warm_panel": {
+      "color": [
+        0.42,
+        0.43,
+        0.39
+      ],
+      "roughness": 0.73,
+      "metalness": 0.08
+    },
+    "graphite": {
+      "color": [
+        0.055,
+        0.07,
+        0.082
+      ],
+      "roughness": 0.51,
+      "metalness": 0.32
+    },
+    "metal": {
+      "color": [
+        0.24,
+        0.29,
+        0.31
+      ],
+      "roughness": 0.32,
+      "metalness": 0.78
+    },
+    "floor": {
+      "color": [
+        0.1,
+        0.13,
+        0.15
+      ],
+      "roughness": 0.83,
+      "metalness": 0.13
+    },
+    "fabric": {
+      "color": [
+        0.105,
+        0.15,
+        0.19
+      ],
+      "roughness": 0.98,
+      "metalness": 0
+    },
+    "linen": {
+      "color": [
+        0.61,
+        0.57,
+        0.46
+      ],
+      "roughness": 0.96,
+      "metalness": 0
+    },
+    "leather": {
+      "color": [
+        0.06,
+        0.075,
+        0.08
+      ],
+      "roughness": 0.82,
+      "metalness": 0
+    },
+    "amber": {
+      "color": [
+        0.8,
+        0.45,
+        0.16
+      ],
+      "roughness": 0.45,
+      "metalness": 0.1
+    },
+    "screen": {
+      "color": [
+        0.014,
+        0.035,
+        0.045
+      ],
+      "roughness": 0.25,
+      "metalness": 0.15
+    },
+    "light": {
+      "color": [
+        1,
+        0.83,
+        0.58
+      ],
+      "roughness": 0.3,
+      "metalness": 0,
+      "emission": [
+        1.0,
+        0.74,
+        0.4
+      ]
+    },
+    "cyan": {
+      "color": [
+        0.12,
+        0.48,
+        0.58
+      ],
+      "roughness": 0.4,
+      "metalness": 0,
+      "emission": [
+        0.035,
+        0.25,
+        0.32
+      ]
+    }
+  },
+  "objects": [
+    {
+      "name": "floor-base",
+      "shape": "box",
+      "position": [
+        0,
+        -0.12,
+        -0.1
+      ],
+      "size": [
+        6.6,
+        0.22,
+        7.9
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-0",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-1",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-2",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-3",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-4",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-5",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-6",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-0-7",
+      "shape": "box",
+      "position": [
+        -2.65,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-0",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-1",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-2",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-3",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-4",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-5",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-6",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-1-7",
+      "shape": "box",
+      "position": [
+        -1.5899999999999999,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-0",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-1",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-2",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-3",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-4",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-5",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-6",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-2-7",
+      "shape": "box",
+      "position": [
+        -0.5299999999999998,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-0",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-1",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-2",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-3",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-4",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-5",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-6",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-3-7",
+      "shape": "box",
+      "position": [
+        0.5300000000000002,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-0",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-1",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-2",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-3",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-4",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-5",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-6",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-4-7",
+      "shape": "box",
+      "position": [
+        1.5900000000000003,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-0",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        -3.52
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-1",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        -2.5300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-2",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        -1.54
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-3",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        -0.5500000000000003
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-4",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        0.43999999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-5",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        1.4300000000000002
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-6",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        2.4199999999999995
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "deck-5-7",
+      "shape": "box",
+      "position": [
+        2.650000000000001,
+        0.015,
+        3.4099999999999997
+      ],
+      "size": [
+        1.035,
+        0.03,
+        0.965
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-0",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        -3.52
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-0",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        -3.52
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-0",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        -3.52
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-1",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-1",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-1",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-2",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        -1.54
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-2",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        -1.54
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-2",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        -1.54
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-3",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-3",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-3",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-4",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        0.43999999999999995
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-4",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        0.43999999999999995
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-4",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        0.43999999999999995
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-5",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        1.4300000000000002
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-5",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        1.4300000000000002
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-5",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        1.4300000000000002
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-6",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        2.4199999999999995
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-6",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        2.4199999999999995
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-6",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        2.4199999999999995
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall--1-7",
+      "shape": "box",
+      "position": [
+        -3.25,
+        1.4,
+        3.4099999999999997
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail--1-7",
+      "shape": "box",
+      "position": [
+        -3.14,
+        0.14,
+        3.4099999999999997
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail--1-7",
+      "shape": "box",
+      "position": [
+        -3.14,
+        2.58,
+        3.4099999999999997
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-0",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        -3.52
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-0",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        -3.52
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-0",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        -3.52
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-1",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-1",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-1",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        -2.5300000000000002
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-2",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        -1.54
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-2",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        -1.54
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-2",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        -1.54
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-3",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-3",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-3",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        -0.5500000000000003
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-4",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        0.43999999999999995
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-4",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        0.43999999999999995
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-4",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        0.43999999999999995
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-5",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        1.4300000000000002
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-5",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        1.4300000000000002
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-5",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        1.4300000000000002
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-6",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        2.4199999999999995
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-6",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        2.4199999999999995
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-6",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        2.4199999999999995
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "wall-1-7",
+      "shape": "box",
+      "position": [
+        3.25,
+        1.4,
+        3.4099999999999997
+      ],
+      "size": [
+        0.14,
+        2.8,
+        0.975
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "base-rail-1-7",
+      "shape": "box",
+      "position": [
+        3.14,
+        0.14,
+        3.4099999999999997
+      ],
+      "size": [
+        0.09,
+        0.15,
+        0.975
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "upper-rail-1-7",
+      "shape": "box",
+      "position": [
+        3.14,
+        2.58,
+        3.4099999999999997
+      ],
+      "size": [
+        0.08,
+        0.06,
+        0.975
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.86,
+        -0.1
+      ],
+      "size": [
+        6.6,
+        0.13,
+        7.9
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-beam",
+      "shape": "box",
+      "position": [
+        -2.7,
+        2.76,
+        -0.1
+      ],
+      "size": [
+        0.11,
+        0.15,
+        7.75
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-beam",
+      "shape": "box",
+      "position": [
+        0,
+        2.76,
+        -0.1
+      ],
+      "size": [
+        0.11,
+        0.15,
+        7.75
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-beam",
+      "shape": "box",
+      "position": [
+        2.7,
+        2.76,
+        -0.1
+      ],
+      "size": [
+        0.11,
+        0.15,
+        7.75
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-lamp-housing",
+      "shape": "box",
+      "position": [
+        0,
+        2.74,
+        -2.7
+      ],
+      "size": [
+        1.9,
+        0.08,
+        0.19
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-lamp",
+      "shape": "box",
+      "position": [
+        0,
+        2.695,
+        -2.7
+      ],
+      "size": [
+        1.7,
+        0.025,
+        0.095
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "ceiling-lamp-housing",
+      "shape": "box",
+      "position": [
+        0,
+        2.74,
+        0
+      ],
+      "size": [
+        1.9,
+        0.08,
+        0.19
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-lamp",
+      "shape": "box",
+      "position": [
+        0,
+        2.695,
+        0
+      ],
+      "size": [
+        1.7,
+        0.025,
+        0.095
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "ceiling-lamp-housing",
+      "shape": "box",
+      "position": [
+        0,
+        2.74,
+        2.6
+      ],
+      "size": [
+        1.9,
+        0.08,
+        0.19
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "ceiling-lamp",
+      "shape": "box",
+      "position": [
+        0,
+        2.695,
+        2.6
+      ],
+      "size": [
+        1.7,
+        0.025,
+        0.095
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "window-below",
+      "shape": "box",
+      "position": [
+        0,
+        0.41,
+        -4.04
+      ],
+      "size": [
+        6.6,
+        0.82,
+        0.24
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-above",
+      "shape": "box",
+      "position": [
+        0,
+        2.69,
+        -4.04
+      ],
+      "size": [
+        6.6,
+        0.28,
+        0.24
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-side",
+      "shape": "box",
+      "position": [
+        -2.98,
+        1.69,
+        -4.04
+      ],
+      "size": [
+        0.64,
+        1.75,
+        0.24
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-jamb",
+      "shape": "box",
+      "position": [
+        -2.64,
+        1.68,
+        -3.89
+      ],
+      "size": [
+        0.15,
+        1.76,
+        0.25
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-side",
+      "shape": "box",
+      "position": [
+        2.98,
+        1.69,
+        -4.04
+      ],
+      "size": [
+        0.64,
+        1.75,
+        0.24
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-jamb",
+      "shape": "box",
+      "position": [
+        2.64,
+        1.68,
+        -3.89
+      ],
+      "size": [
+        0.15,
+        1.76,
+        0.25
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-frame",
+      "shape": "box",
+      "position": [
+        0,
+        0.83,
+        -3.89
+      ],
+      "size": [
+        5.42,
+        0.15,
+        0.26
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-gasket",
+      "shape": "box",
+      "position": [
+        0,
+        0.87,
+        -3.74
+      ],
+      "size": [
+        5.25,
+        0.025,
+        0.015
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-frame",
+      "shape": "box",
+      "position": [
+        0,
+        2.52,
+        -3.89
+      ],
+      "size": [
+        5.42,
+        0.15,
+        0.26
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-gasket",
+      "shape": "box",
+      "position": [
+        0,
+        2.48,
+        -3.74
+      ],
+      "size": [
+        5.25,
+        0.025,
+        0.015
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-sill",
+      "shape": "box",
+      "position": [
+        0,
+        0.84,
+        -3.76
+      ],
+      "size": [
+        5.55,
+        0.12,
+        0.42
+      ],
+      "material": "metal",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "window-shutter",
+      "shape": "box",
+      "position": [
+        0,
+        1.68,
+        -4.09
+      ],
+      "size": [
+        5.14,
+        1.56,
+        0.06
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "shutter"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        -2.45,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        -1.7,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        -0.9,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        0,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        0.9,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        1.7,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-fastener",
+      "shape": "box",
+      "position": [
+        2.45,
+        0.825,
+        -3.74
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.018
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "handrail",
+      "shape": "box",
+      "position": [
+        0,
+        0.58,
+        -3.73
+      ],
+      "size": [
+        4.7,
+        0.035,
+        0.035
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "handrail-mount",
+      "shape": "box",
+      "position": [
+        -2.2,
+        0.58,
+        -3.83
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.2
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "handrail-mount",
+      "shape": "box",
+      "position": [
+        2.2,
+        0.58,
+        -3.83
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.2
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.55,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.4600000000000001,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.37000000000000005,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.28,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.19000000000000006,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.10000000000000009,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        -0.010000000000000009,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.07999999999999996,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.16999999999999993,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.2599999999999999,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.34999999999999987,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.43999999999999995,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "vent-slot",
+      "shape": "box",
+      "position": [
+        0.53,
+        0.27,
+        -3.907
+      ],
+      "size": [
+        0.045,
+        0.14,
+        0.012
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-base",
+      "shape": "box",
+      "position": [
+        -2.47,
+        0.31,
+        -1.6
+      ],
+      "size": [
+        1.35,
+        0.59,
+        2.55
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-trim",
+      "shape": "box",
+      "position": [
+        -2.43,
+        0.59,
+        -1.6
+      ],
+      "size": [
+        1.38,
+        0.1,
+        2.63
+      ],
+      "material": "metal",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "mattress",
+      "shape": "box",
+      "position": [
+        -2.43,
+        0.73,
+        -1.6
+      ],
+      "size": [
+        1.23,
+        0.19,
+        2.4
+      ],
+      "material": "linen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "blanket",
+      "shape": "box",
+      "position": [
+        -2.43,
+        0.844,
+        -1.22
+      ],
+      "size": [
+        1.25,
+        0.065,
+        1.57
+      ],
+      "material": "fabric",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "pillow",
+      "shape": "box",
+      "position": [
+        -2.43,
+        0.87,
+        -2.5
+      ],
+      "size": [
+        0.84,
+        0.16,
+        0.42
+      ],
+      "material": "linen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-drawer",
+      "shape": "box",
+      "position": [
+        -1.783,
+        0.33,
+        -2.36
+      ],
+      "size": [
+        0.025,
+        0.36,
+        0.77
+      ],
+      "material": "panel",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "drawer-pull",
+      "shape": "box",
+      "position": [
+        -1.755,
+        0.39,
+        -2.36
+      ],
+      "size": [
+        0.05,
+        0.035,
+        0.24
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-drawer",
+      "shape": "box",
+      "position": [
+        -1.783,
+        0.33,
+        -1.53
+      ],
+      "size": [
+        0.025,
+        0.36,
+        0.77
+      ],
+      "material": "panel",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "drawer-pull",
+      "shape": "box",
+      "position": [
+        -1.755,
+        0.39,
+        -1.53
+      ],
+      "size": [
+        0.05,
+        0.035,
+        0.24
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-drawer",
+      "shape": "box",
+      "position": [
+        -1.783,
+        0.33,
+        -0.7
+      ],
+      "size": [
+        0.025,
+        0.36,
+        0.77
+      ],
+      "material": "panel",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "drawer-pull",
+      "shape": "box",
+      "position": [
+        -1.755,
+        0.39,
+        -0.7
+      ],
+      "size": [
+        0.05,
+        0.035,
+        0.24
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-headboard",
+      "shape": "box",
+      "position": [
+        -2.48,
+        1.06,
+        -2.91
+      ],
+      "size": [
+        1.3,
+        0.64,
+        0.065
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "bunk-shelf",
+      "shape": "box",
+      "position": [
+        -2.98,
+        1.9,
+        -1.64
+      ],
+      "size": [
+        0.41,
+        0.065,
+        2.5
+      ],
+      "material": "warm_panel",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "reading-strip",
+      "shape": "box",
+      "position": [
+        -2.93,
+        1.855,
+        -1.64
+      ],
+      "size": [
+        0.1,
+        0.018,
+        2.1
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "overhead-locker",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.28,
+        -2.35
+      ],
+      "size": [
+        0.47,
+        0.58,
+        0.64
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "locker-handle",
+      "shape": "box",
+      "position": [
+        -2.7,
+        2.22,
+        -2.35
+      ],
+      "size": [
+        0.035,
+        0.17,
+        0.025
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "overhead-locker",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.28,
+        -1.65
+      ],
+      "size": [
+        0.47,
+        0.58,
+        0.64
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "locker-handle",
+      "shape": "box",
+      "position": [
+        -2.7,
+        2.22,
+        -1.65
+      ],
+      "size": [
+        0.035,
+        0.17,
+        0.025
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "overhead-locker",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.28,
+        -0.95
+      ],
+      "size": [
+        0.47,
+        0.58,
+        0.64
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "locker-handle",
+      "shape": "box",
+      "position": [
+        -2.7,
+        2.22,
+        -0.95
+      ],
+      "size": [
+        0.035,
+        0.17,
+        0.025
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "book",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.055,
+        -2.25
+      ],
+      "size": [
+        0.26,
+        0.25,
+        0.08
+      ],
+      "material": "linen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "book",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.055,
+        -2.13
+      ],
+      "size": [
+        0.26,
+        0.25,
+        0.08
+      ],
+      "material": "fabric",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "book",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.055,
+        -2.01
+      ],
+      "size": [
+        0.26,
+        0.25,
+        0.08
+      ],
+      "material": "linen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "book",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.055,
+        -1.8900000000000001
+      ],
+      "size": [
+        0.26,
+        0.25,
+        0.08
+      ],
+      "material": "fabric",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "book",
+      "shape": "box",
+      "position": [
+        -2.95,
+        2.055,
+        -1.77
+      ],
+      "size": [
+        0.26,
+        0.25,
+        0.08
+      ],
+      "material": "linen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-top",
+      "shape": "box",
+      "position": [
+        2.42,
+        0.8,
+        -1.95
+      ],
+      "size": [
+        1.42,
+        0.085,
+        2.33
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-leg",
+      "shape": "box",
+      "position": [
+        2.74,
+        0.38,
+        -2.77
+      ],
+      "size": [
+        0.1,
+        0.76,
+        0.11
+      ],
+      "material": "metal",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-leg",
+      "shape": "box",
+      "position": [
+        2.74,
+        0.38,
+        -1.13
+      ],
+      "size": [
+        0.1,
+        0.76,
+        0.11
+      ],
+      "material": "metal",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-drawers",
+      "shape": "box",
+      "position": [
+        2.8,
+        0.4,
+        -1.25
+      ],
+      "size": [
+        0.65,
+        0.69,
+        0.65
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-drawer-pull",
+      "shape": "box",
+      "position": [
+        2.458,
+        0.26,
+        -1.25
+      ],
+      "size": [
+        0.025,
+        0.025,
+        0.22
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-drawer-pull",
+      "shape": "box",
+      "position": [
+        2.458,
+        0.49,
+        -1.25
+      ],
+      "size": [
+        0.025,
+        0.025,
+        0.22
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "desk-drawer-pull",
+      "shape": "box",
+      "position": [
+        2.458,
+        0.68,
+        -1.25
+      ],
+      "size": [
+        0.025,
+        0.025,
+        0.22
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "monitor-foot",
+      "shape": "box",
+      "position": [
+        2.62,
+        0.88,
+        -2.3
+      ],
+      "size": [
+        0.3,
+        0.03,
+        0.35
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "monitor-neck",
+      "shape": "box",
+      "position": [
+        2.73,
+        1.04,
+        -2.3
+      ],
+      "size": [
+        0.055,
+        0.32,
+        0.055
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "monitor-case",
+      "shape": "box",
+      "position": [
+        2.76,
+        1.27,
+        -2.3
+      ],
+      "size": [
+        0.06,
+        0.49,
+        0.77
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "monitor",
+      "shape": "box",
+      "position": [
+        2.722,
+        1.27,
+        -2.3
+      ],
+      "size": [
+        0.008,
+        0.42,
+        0.68
+      ],
+      "material": "screen",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.41,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.375,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.3399999999999999,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.305,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.27,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "screen-line",
+      "shape": "box",
+      "position": [
+        2.714,
+        1.2349999999999999,
+        -2.43
+      ],
+      "size": [
+        0.005,
+        0.007,
+        0.3
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "keyboard",
+      "shape": "box",
+      "position": [
+        2.1,
+        0.872,
+        -2.3
+      ],
+      "size": [
+        0.27,
+        0.04,
+        0.6
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "keyboard-row",
+      "shape": "box",
+      "position": [
+        2.01,
+        0.896,
+        -2.3
+      ],
+      "size": [
+        0.033,
+        0.007,
+        0.52
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "keyboard-row",
+      "shape": "box",
+      "position": [
+        2.0839999999999996,
+        0.896,
+        -2.3
+      ],
+      "size": [
+        0.033,
+        0.007,
+        0.52
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "keyboard-row",
+      "shape": "box",
+      "position": [
+        2.158,
+        0.896,
+        -2.3
+      ],
+      "size": [
+        0.033,
+        0.007,
+        0.52
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "chair-seat",
+      "shape": "box",
+      "position": [
+        1.62,
+        0.49,
+        -1.85
+      ],
+      "size": [
+        0.54,
+        0.14,
+        0.58
+      ],
+      "material": "leather",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "chair-back",
+      "shape": "box",
+      "position": [
+        1.34,
+        0.91,
+        -1.85
+      ],
+      "size": [
+        0.11,
+        0.78,
+        0.58
+      ],
+      "material": "leather",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "chair-stem",
+      "shape": "box",
+      "position": [
+        1.62,
+        0.24,
+        -1.85
+      ],
+      "size": [
+        0.08,
+        0.48,
+        0.08
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "chair-base",
+      "shape": "box",
+      "position": [
+        1.62,
+        0.07,
+        -1.85
+      ],
+      "size": [
+        0.62,
+        0.055,
+        0.56
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-port",
+      "shape": "box",
+      "position": [
+        -2.88,
+        1.14,
+        1.95
+      ],
+      "size": [
+        0.65,
+        2.27,
+        1.75
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-starboard",
+      "shape": "box",
+      "position": [
+        2.88,
+        1.14,
+        1.95
+      ],
+      "size": [
+        0.65,
+        2.27,
+        1.75
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-handle",
+      "shape": "box",
+      "position": [
+        -2.53,
+        1.18,
+        1.55
+      ],
+      "size": [
+        0.045,
+        0.26,
+        0.035
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-handle",
+      "shape": "box",
+      "position": [
+        -2.53,
+        1.18,
+        2.35
+      ],
+      "size": [
+        0.045,
+        0.26,
+        0.035
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-handle",
+      "shape": "box",
+      "position": [
+        2.53,
+        1.18,
+        1.55
+      ],
+      "size": [
+        0.045,
+        0.26,
+        0.035
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "storage-handle",
+      "shape": "box",
+      "position": [
+        2.53,
+        1.18,
+        2.35
+      ],
+      "size": [
+        0.045,
+        0.26,
+        0.035
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "window-control",
+      "shape": "box",
+      "position": [
+        2.98,
+        1.25,
+        -3.6
+      ],
+      "size": [
+        0.12,
+        0.33,
+        0.21
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "control-indicator",
+      "shape": "box",
+      "position": [
+        2.905,
+        1.31,
+        -3.6
+      ],
+      "size": [
+        0.015,
+        0.025,
+        0.07
+      ],
+      "material": "cyan",
+      "collision": false,
+      "group": "cabin"
+    },
+    {
+      "name": "aft-wall",
+      "shape": "box",
+      "position": [
+        -2.0,
+        1.4,
+        3.84
+      ],
+      "size": [
+        2.6,
+        2.8,
+        0.16
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "aft-wall",
+      "shape": "box",
+      "position": [
+        2.0,
+        1.4,
+        3.84
+      ],
+      "size": [
+        2.6,
+        2.8,
+        0.16
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "door-header",
+      "shape": "box",
+      "position": [
+        0,
+        2.59,
+        3.84
+      ],
+      "size": [
+        1.4,
+        0.42,
+        0.18
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "door-jamb",
+      "shape": "box",
+      "position": [
+        -0.73,
+        1.2,
+        3.79
+      ],
+      "size": [
+        0.1,
+        2.4,
+        0.19
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "door-jamb",
+      "shape": "box",
+      "position": [
+        0.73,
+        1.2,
+        3.79
+      ],
+      "size": [
+        0.1,
+        2.4,
+        0.19
+      ],
+      "material": "graphite",
+      "collision": true,
+      "group": "cabin"
+    },
+    {
+      "name": "cabin-door",
+      "shape": "box",
+      "position": [
+        0,
+        1.18,
+        3.86
+      ],
+      "size": [
+        1.34,
+        2.36,
+        0.075
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "door"
+    },
+    {
+      "name": "door-stripe",
+      "shape": "box",
+      "position": [
+        0,
+        1.45,
+        3.808
+      ],
+      "size": [
+        0.06,
+        1.5,
+        0.008
+      ],
+      "material": "amber",
+      "collision": false,
+      "group": "door"
+    },
+    {
+      "name": "corridor-floor",
+      "shape": "box",
+      "position": [
+        0,
+        -0.08,
+        4.4
+      ],
+      "size": [
+        2.36,
+        0.17,
+        0.99
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.71,
+        4.4
+      ],
+      "size": [
+        2.36,
+        0.12,
+        0.99
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        -1.2,
+        1.3,
+        4.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        -1.104,
+        0.94,
+        4.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        1.2,
+        1.3,
+        4.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        1.104,
+        0.94,
+        4.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-light",
+      "shape": "box",
+      "position": [
+        0,
+        2.635,
+        4.4
+      ],
+      "size": [
+        0.48,
+        0.015,
+        0.09
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "corridor-floor",
+      "shape": "box",
+      "position": [
+        0,
+        -0.08,
+        5.4
+      ],
+      "size": [
+        2.36,
+        0.17,
+        0.99
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.71,
+        5.4
+      ],
+      "size": [
+        2.36,
+        0.12,
+        0.99
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        -1.2,
+        1.3,
+        5.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        -1.104,
+        0.94,
+        5.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        1.2,
+        1.3,
+        5.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        1.104,
+        0.94,
+        5.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-light",
+      "shape": "box",
+      "position": [
+        0,
+        2.635,
+        5.4
+      ],
+      "size": [
+        0.48,
+        0.015,
+        0.09
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "corridor-floor",
+      "shape": "box",
+      "position": [
+        0,
+        -0.08,
+        6.4
+      ],
+      "size": [
+        2.36,
+        0.17,
+        0.99
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.71,
+        6.4
+      ],
+      "size": [
+        2.36,
+        0.12,
+        0.99
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        -1.2,
+        1.3,
+        6.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        -1.104,
+        0.94,
+        6.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        1.2,
+        1.3,
+        6.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        1.104,
+        0.94,
+        6.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-light",
+      "shape": "box",
+      "position": [
+        0,
+        2.635,
+        6.4
+      ],
+      "size": [
+        0.48,
+        0.015,
+        0.09
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "corridor-floor",
+      "shape": "box",
+      "position": [
+        0,
+        -0.08,
+        7.4
+      ],
+      "size": [
+        2.36,
+        0.17,
+        0.99
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.71,
+        7.4
+      ],
+      "size": [
+        2.36,
+        0.12,
+        0.99
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        -1.2,
+        1.3,
+        7.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        -1.104,
+        0.94,
+        7.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-wall",
+      "shape": "box",
+      "position": [
+        1.2,
+        1.3,
+        7.4
+      ],
+      "size": [
+        0.12,
+        2.6,
+        0.99
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-rail",
+      "shape": "box",
+      "position": [
+        1.104,
+        0.94,
+        7.4
+      ],
+      "size": [
+        0.035,
+        0.035,
+        0.95
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "corridor"
+    },
+    {
+      "name": "corridor-light",
+      "shape": "box",
+      "position": [
+        0,
+        2.635,
+        7.4
+      ],
+      "size": [
+        0.48,
+        0.015,
+        0.09
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "common-floor",
+      "shape": "box",
+      "position": [
+        0,
+        -0.08,
+        10.35
+      ],
+      "size": [
+        5.0,
+        0.17,
+        5.0
+      ],
+      "material": "floor",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-ceiling",
+      "shape": "box",
+      "position": [
+        0,
+        2.78,
+        10.35
+      ],
+      "size": [
+        5.0,
+        0.15,
+        5.0
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-side",
+      "shape": "box",
+      "position": [
+        -2.5,
+        1.35,
+        10.35
+      ],
+      "size": [
+        0.12,
+        2.7,
+        5.0
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-side",
+      "shape": "box",
+      "position": [
+        2.5,
+        1.35,
+        10.35
+      ],
+      "size": [
+        0.12,
+        2.7,
+        5.0
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-aft",
+      "shape": "box",
+      "position": [
+        0,
+        1.35,
+        12.85
+      ],
+      "size": [
+        5.0,
+        2.7,
+        0.12
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-front",
+      "shape": "box",
+      "position": [
+        -1.83,
+        1.35,
+        7.9
+      ],
+      "size": [
+        1.34,
+        2.7,
+        0.12
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-front",
+      "shape": "box",
+      "position": [
+        1.83,
+        1.35,
+        7.9
+      ],
+      "size": [
+        1.34,
+        2.7,
+        0.12
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-lamp",
+      "shape": "box",
+      "position": [
+        0,
+        2.69,
+        10.35
+      ],
+      "size": [
+        1.6,
+        0.03,
+        0.11
+      ],
+      "material": "light",
+      "collision": false,
+      "group": "lights"
+    },
+    {
+      "name": "common-table",
+      "shape": "box",
+      "position": [
+        0,
+        0.77,
+        10.3
+      ],
+      "size": [
+        1.55,
+        0.07,
+        1.05
+      ],
+      "material": "warm_panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-table-leg",
+      "shape": "box",
+      "position": [
+        0,
+        0.37,
+        10.3
+      ],
+      "size": [
+        0.14,
+        0.74,
+        0.14
+      ],
+      "material": "metal",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "common-bench",
+      "shape": "box",
+      "position": [
+        0,
+        0.46,
+        9.35
+      ],
+      "size": [
+        1.8,
+        0.15,
+        0.48
+      ],
+      "material": "fabric",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "bench-leg",
+      "shape": "box",
+      "position": [
+        -0.6,
+        0.2,
+        9.35
+      ],
+      "size": [
+        0.1,
+        0.4,
+        0.3
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "common"
+    },
+    {
+      "name": "bench-leg",
+      "shape": "box",
+      "position": [
+        0.6,
+        0.2,
+        9.35
+      ],
+      "size": [
+        0.1,
+        0.4,
+        0.3
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "common"
+    },
+    {
+      "name": "common-bench",
+      "shape": "box",
+      "position": [
+        0,
+        0.46,
+        11.25
+      ],
+      "size": [
+        1.8,
+        0.15,
+        0.48
+      ],
+      "material": "fabric",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "bench-leg",
+      "shape": "box",
+      "position": [
+        -0.6,
+        0.2,
+        11.25
+      ],
+      "size": [
+        0.1,
+        0.4,
+        0.3
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "common"
+    },
+    {
+      "name": "bench-leg",
+      "shape": "box",
+      "position": [
+        0.6,
+        0.2,
+        11.25
+      ],
+      "size": [
+        0.1,
+        0.4,
+        0.3
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "common"
+    },
+    {
+      "name": "galley-counter",
+      "shape": "box",
+      "position": [
+        -2.02,
+        0.48,
+        11.8
+      ],
+      "size": [
+        0.75,
+        0.96,
+        1.45
+      ],
+      "material": "panel",
+      "collision": true,
+      "group": "common"
+    },
+    {
+      "name": "galley-top",
+      "shape": "box",
+      "position": [
+        -2.02,
+        0.99,
+        11.8
+      ],
+      "size": [
+        0.78,
+        0.06,
+        1.48
+      ],
+      "material": "metal",
+      "collision": false,
+      "group": "common"
+    },
+    {
+      "name": "galley-appliance",
+      "shape": "box",
+      "position": [
+        -2.03,
+        1.22,
+        12.15
+      ],
+      "size": [
+        0.51,
+        0.42,
+        0.42
+      ],
+      "material": "graphite",
+      "collision": false,
+      "group": "common"
+    }
+  ],
+  "spawn": [
+    -0.55,
+    0,
+    -1.75
+  ],
+  "earth": {
+    "position": [
+      0,
+      -3000,
+      -4200
+    ],
+    "radius": 3500
+  },
+  "roomBounds": [
+    [
+      -3.08,
+      3.08,
+      -3.67,
+      3.7
+    ],
+    [
+      -1.1,
+      1.1,
+      3.65,
+      8.0
+    ],
+    [
+      -2.36,
+      2.36,
+      7.9,
+      12.68
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.uasset -text
+*.umap -text
+*.png -text
+*.jpg -text
